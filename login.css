@@ -1,0 +1,45 @@
+body {
+  background-color: rgba(208, 106, 155, 0.768);
+}
+.form {
+  background-color: rgb(119, 115, 117);
+  width: 450px;
+  padding: 60px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 70px;
+}
+.icon {
+  margin: auto;
+}
+.img {
+  width: 300px;
+  margin-left: 75px;
+}
+.input-box {
+  height: 60px;
+  width: 450px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: px;
+  margin-top: 20px;
+  font-size: 38px;
+  background-color: gray;
+  color: white;
+}
+::placeholder {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: ;
+}
+.login-btn {
+  margin-left: 150px;
+  padding: 20px 40px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(95, 230, 182);
+}

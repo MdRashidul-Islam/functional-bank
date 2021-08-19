@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind link  -->
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="body">
+    <h1 class="heading">Let's get some Moooney!!!</h1>
+    <section class="container">
+        <div class="gird-container">
+            <div class="bg-color card-style">
+                <h2 class="card-heading">Total Deposit</h2>
+                <h2 class="total-amount">$<span id="deposit-total" class="amount">00</span> </h2>
+
+            </div>
+            <div class="bg-color card-style">
+                <h2 class="card-heading">Total Withdraw</h2>
+                <h2 class="total-amount">$<span id="withdraw-total" class="amount">00</span> </h2>
+
+            </div>
+            <div class="bg-color  card-style">
+                <h2 class="card-heading">Total Balance</h2>
+                <h2 class="total-amount">$<span id="balance-total" class="amount">00</span> </h2>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="input-container">
+            <div class="input-box">
+                <h1 class="card-heading">Deposit Here!!</h1>
+                <input id="deposit-input" class="input" type="text" placeholder="Enter your Amount"> <br>
+                <button id="deposit-btn" class="btn">Deposit</button>
+                
+            </div>
+
+            <div class="input-box">
+                <h1 class="card-heading">Withdraw Here!!</h1>
+                <input id="withdraw-input"  class="input" type="text" placeholder="Enter your Amount"> <br>
+                <button id="withdraw-btn" class="btn">Withdraw</button>
+               </div>
+        </div>
+    </section>
+   
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

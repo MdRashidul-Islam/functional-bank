@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  background-image: url(images/pic\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading {
+  text-align: center;
+  font-size: 60px;
+  color: aqua;
+}
+
+.gird-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  margin: 0 auto;
+}
+.card-style {
+  padding: 20px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 55px gray;
+}
+.bg-color {
+  background-color: rgba(128, 128, 128, 0.344);
+  margin-top: 50px;
+}
+
+.card-heading {
+  font-size: 53px;
+  color: rgb(196, 43, 43);
+  font-weight: bold;
+}
+.total-amount {
+  font-size: 85px;
+}
+.amount {
+  color: rgb(14, 12, 12);
+}
+
+.input-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+}
+
+.input-box {
+  margin: 0 auto;
+  background-color: rgba(128, 128, 128, 0.33);
+  padding: 15px;
+  border-radius: 10px;
+}
+.input {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 0;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 10px 10px 45px rgb(221, 191, 191);
+  background-color: rgba(128, 128, 128, 0.302);
+}
+::placeholder {
+  font-size: 35px;
+  color: rgba(223, 199, 128, 0.7);
+}
+.btn {
+  margin-top: 15px;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(5, 4, 4);
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
