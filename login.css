@@ -9,9 +9,11 @@ body {
   margin: auto;
   margin-top: 70px;
 }
+
 .icon {
   margin: auto;
 }
+
 .img {
   width: 300px;
   margin-left: 75px;
@@ -27,11 +29,11 @@ body {
   background-color: gray;
   color: white;
 }
+
 ::placeholder {
   font-size: 30px;
   color: white;
   text-align: center;
-  margin-top: ;
 }
 .login-btn {
   margin-left: 150px;
